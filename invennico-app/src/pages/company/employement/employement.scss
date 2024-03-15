@@ -1,0 +1,98 @@
+
+
+
+
+.hero-employement{
+    padding-top: 10rem;
+    .first-img{
+        .img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    .first-text{
+        p{
+            white-space: 1.6;
+            margin-bottom: 3rem;
+        }
+
+    }
+    .second-employ{
+      margin-top: 15rem;
+        .second-img{
+            .img{
+                width: 400px;
+                height: 400px; 
+            }
+        }
+    }
+    .third-employ{
+        margin-top: 15rem;
+        .first-img{
+            .img{
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+  
+}
+
+.business{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+       .engage-business{
+           background-image:url("https://invennico-site.vercel.app/assets/ctabackground-61742ac7.svg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           padding-top: 70px;
+           margin-bottom: 300px;
+           width: 1100px;
+           padding-left: 5rem;
+           margin-left: 5rem;
+           color: #fff;
+            position: relative;
+           z-index: 1;
+          
+           .button{
+            border: 1px solid #fff;
+            height: 40px;
+           }
+          .button:hover{
+            border: 1px solid #fff;
+            background-color: black;
+            
+            position: absolute;
+            z-index: 2;
+            line-height: 20px;
+            margin-top: 10px;
+           }
+        }
+   }
+.footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+
+    .footer-header{ margin-top: 100px;
+      padding-top: 30px;
+     background-color: rgb(250 232 230 );
+     
+     }
+ .footer-header{
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}

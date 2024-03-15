@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+    
+   }
+   :root{
+    --orange-bg:color: rgb(239,68,52)
+   }
+nav{
+   .navbar{
+    background-color: #fff;
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a{
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a:hover{
+    padding-bottom: 0px;
+    border-bottom: 1px solid red;
+   }
+    .updown:hover{
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .hire{
+      
+        margin-top: px;
+    }
+    a.project{
+        background: rgb(239,68,52);
+         background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+        border-radius: 8px;
+    
+    }
+    a.project:hover{
+    background-color: black;
+    background: black;
+    color:#fff;
+    }
+    
+}
+
+.about-hero{
+  padding-bottom: 50px;
+    .about-hero-holder{
+        margin-top: 100px;
+        padding-top: 50px;
+    
+    }    
+    .about-hero-content{
+        padding-top: 100px;
+        margin-bottom: 80px;
+        .card-left{
+           background-color: #FEE1D9;
+           
+            .pyramid-img{
+                width: 100px;
+                height: 100px;
+                margin-left: 43px;
+                margin-top: 40px;
+            }
+
+        }
+        .card-right{
+            background-color: #BBCAF3;
+            .pyramid-img{
+                width: 100px;
+                height: 100px;
+                margin-left: 43px;
+                margin-top: 40px;
+            }
+        }
+
+       
+    }
+    .values-card{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        .integrity-card{
+            width: auto;
+            background-color:#56cbf2
+            
+        }
+        .account-card{
+           background-image:linear-gradient(89.24deg, #4cb8f1 .72%, #43a7f0 99.43%);
+        }
+        .innovation-card{
+            
+            background-image:linear-gradient(89.87deg, #42a5ef 0.75%, #3994ee 99.46%);
+        }
+        .teamwork-card{
+            
+            background-image:linear-gradient(89deg, #3891ee 0.4% , #2f81ed 96.21%);
+        }
+    }
+}
+.about-clients{
+    background-color: #F5F5F7;
+    padding-bottom: 200px;
+    .about-clients-holder h6{
+        padding-top:300px;
+        margin-bottom: 100px;
+    }
+    .about-clients-content{
+        padding-top: 100px;
+        margin-left: 100px;
+        padding-left: 50px;
+
+        .clients{
+            margin-right: 60px;
+            .clients-img{
+                width: 80px;
+                height: 80px;
+                background-color:#fae8e6;
+                padding: 10px;
+                border-radius: 50%;
+            }
+            .clients-text{
+             font-size: 20px;
+             padding-top: 0px;
+             margin-top: 0px;
+            color:rgb(239,68,52);
+            }
+        }
+        .domain {
+            margin-right: 60px;
+            .domain-img{
+                width: 80px;
+                height: 80px;
+                background-color:#fae8e6;
+                padding: 10px;
+                border-radius: 50%;
+
+            }
+            .domain-text{
+             font-size: 20px;
+             padding-top: 0px;
+             margin-top: 0px;
+            color:rgb(239,68,52);
+
+            }
+        }
+        .million-card{
+
+            .million-img{
+                width: 80px;
+                height: 80px;
+                background-color:#fae8e6;
+                padding: 10px;
+                border-radius: 50%;
+            }
+            .million-text{
+                font-size: 20px;
+                padding-top: 0px;
+                margin-top: 0px;
+               color:rgb(239,68,52);
+            }
+        }
+    }
+    
+}
+ .about-story{
+   
+    .about-story-content{
+        margin-bottom: 200px;
+    }
+    .about-business{
+        background-image: url("https://invennico-site.vercel.app/assets/ctabackground-61742ac7.svg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding-top: 70px;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-bottom: 300px;
+       color: #fff;
+      position: relative;
+       z-index: 1;
+      
+
+       .button{
+        border: 1px solid #fff;
+        height: 40px;
+       }
+      .button:hover{
+        border: 1px solid #fff;
+        background-color: black;
+        
+        position: absolute;
+        z-index: 2;
+        line-height: 20px;
+        margin-top: 10px;
+       
+        
+       
+       }
+    }
+ }
+ .footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+    padding-top: 50px;
+
+    .footer-header{ 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px; 
+      padding-top: 30px;
+     background-color: rgb(250 232 230 );
+     
+     }
+ .footer-header{
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}

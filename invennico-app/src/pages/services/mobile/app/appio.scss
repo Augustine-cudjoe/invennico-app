@@ -1,0 +1,451 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+    
+   }
+   
+   nav{
+     
+    .navbar-nav{
+     width: 100% ;
+     .dropdown{
+         position:static !important ;
+        
+         .dropdown-menu{
+            border: none;
+             margin-top: 0px !important;
+             width: 100% !important;
+             padding-left: 3rem;
+            
+ 
+            
+ 
+         }
+         .dropdown-menu li:first-child a{
+             font-weight: bold;
+         }
+        
+         
+       
+     }
+    
+    
+ 
+    }
+    .dropdown:hover .dropdown-menu{
+     background-image: url("https://invennico-site.vercel.app/assets/background-ac3428c1.png");
+     background-size: cover;
+     display: block;
+     
+  
+ }
+  
+ ul.navbar-nav li.nav-item a{
+     padding: 10px;
+ 
+    }
+    ul.navbar-nav li.nav-item a:hover{
+     padding-bottom: 0px;
+     border-bottom: 1px solid red;
+    }
+    .company{
+     border: none;
+     width: 100vw;
+     padding-left: 0px;
+     margin-left: 0px;
+     text-decoration: none;
+    }
+     
+ 
+     .hire{
+       
+         margin-top: px;
+     }
+     a.project{
+         background: rgb(239,68,52);
+          background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+         border-radius: 8px;
+     
+     }
+     a.project:hover{
+     background-color: black;
+     background: black;
+     color:#fff;
+     }
+     
+ }
+
+.app-hero-holder{
+
+    margin-top: 5.5rem;
+    .left-holder{
+        h1{
+            font-size: 5rem;
+            font-weight: bolder;
+        }
+        h6{
+            font-size: 1.5rem;
+    
+        }
+        .years{
+            color: rgb(239,68,52) ;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+        .button{
+            background: rgb(239,68,52);
+            background-color: linear-gradient(180deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+            
+        }
+        .button:hover{
+            background: black;
+           color: #fff;
+            
+        }
+    }
+    
+    .right-holder{
+        .img{
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
+.ioapp-services{
+    margin-top: 11rem;
+   
+    .ioapp-right-holder{
+        width: 700px;
+        height: 700px;
+        margin-right: 0px;
+        padding-right: 0px;
+      .card{
+        width: 190px;
+        height: 170px;
+        margin: 0px;
+        padding: 0px;
+        .card-body{
+            padding-top: 2rem;
+            font-size: 12px;
+        }
+      }
+        .img{
+            width: 70px;
+            height: 70px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+.appio-project-holder{
+        margin-top: 12rem;
+    .project-left-text{
+        font-size: 70px;
+        line-height: 1.6;
+        font-weight: 800;
+        color:  rgb(239,68,52);;
+    }
+    .project-imgs{
+        width: 580px;
+        height: auto;
+    }
+  
+    .project-imgs:hover{
+        box-shadow: 10 10 30px;
+        filter: brightness(50%) saturate(100%) hue-rotate(180deg);
+        transition: filter 0.3s ease;
+
+    }
+    .project-imgs-button{
+      width: 580px;
+      height: 870px;
+      margin-top: 10px;
+      padding-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+
+    }
+   .project-left-top-img{
+    position: relative;
+    z-index: 0;
+   }
+   .project-left-top-img:hover .project-left-top{
+     visibility: hidden;
+   }
+
+    .project-left-top{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 0px;
+        z-index: 1;
+
+    }
+   
+    .project-left-bottom-img{
+        position: relative;
+        z-index: 0;
+    }
+    .project-left{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 25px;
+        padding-left: 100px;
+        z-index: 1;
+       
+        
+    }
+    .project-left-bottom-img:hover .project-left{
+        visibility: hidden;
+    }
+    
+    .project-right-img-top{
+        position: relative;
+        z-index: 0;
+    }
+    .project-right-top{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 25px;
+        margin-left: 120px;
+        z-index: 1;
+    }
+    .project-right-img-top:hover .project-right-top{
+        visibility: hidden;
+    }
+    .project-right-button{
+        position: relative;
+        z-index: 0;
+    }
+   
+    .project-right-button:hover .project-right-text{
+        visibility: hidden;
+    }
+    .project-right-button{
+        color:  rgb(239,68,52);
+    }
+    .bi-arrow-right{
+        position: absolute;
+         top: 50%;
+         left: 90%;
+         transform: translate(-50%, -50%) rotate(0deg);
+         animation: arrow-move 1s ease-in-out infinite alternate;
+
+    }
+    @keyframes arrow-move {
+        0% {
+          left: 50;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+}
+
+.appio-business{
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+       .engage-business{
+           background-image:url("https://invennico-site.vercel.app/assets/ctabackground-61742ac7.svg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           padding-top: 70px;
+           margin-bottom: 300px;
+           width: 1100px;
+           padding-left: 5rem;
+           margin-left: 5rem;
+           color: #fff;
+            position: relative;
+           z-index: 1;
+          
+           .button{
+            border: 1px solid #fff;
+            height: 40px;
+           }
+          .button:hover{
+            border: 1px solid #fff;
+            background-color: black;
+            
+            position: absolute;
+            z-index: 2;
+            line-height: 20px;
+            margin-top: 10px;
+           }
+        }
+   }
+
+   .appio-solution{
+     
+    .appio-solution-content{
+        .link{
+            text-decoration: none;
+
+            .card{
+                width: 280px;
+                height: 280px;
+                .img-fluid{
+                    width: 100px;
+                    height: 100px;
+                    align-self: center;
+                    justify-content: center;
+                    margin-top: 70px;
+                }
+            }
+        }
+        
+        .card:hover{
+            background: rgb(239,68,52);
+            background-color: linear-gradient(180deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+        }
+    }
+   }
+
+   .appio-technology{
+    background-color:linear-gradient(180deg,#faf8f9 0%,#fae8e6 100%);
+    margin-top: 10rem;
+    padding-top: 5rem;
+    
+    .business-holder h5{
+        color: #0BB8E0 ;
+        font-weight: 500;
+    }
+    .business-holder h1{
+        font-size: 100px;
+        color: #0BB8E0 ;
+        font-weight: 800;
+    }
+    .business-holder p{
+        font-size: 20px;
+        
+    }
+
+    button.business{
+       
+            background: rgb(239,68,52);
+             background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            border-radius: 8px;
+         }
+
+      button.business:hover{
+         background-color: black;
+         background: black;
+         color:#fff;
+             }
+   .project-holder h2{
+    font-size: 50px;
+    font-weight: 800;
+     
+   }
+   .teach-content{
+    margin-bottom: 100px;
+   }
+   .service-span{
+    background-color: #fae8e6;
+    color: black;
+    border: #fae8e6;
+   }
+   .service-span:hover{
+    background: rgb(239,68,52);
+    background-color: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+    color: white;
+   }
+   .option:hover{
+    border-color:none;
+    box-shadow:none;
+    outline: 0;
+    background-color: white;
+   }
+   select{
+    background-color: white;
+   }
+    .option:focus,
+   select:focus,
+   .form-control:focus{
+         border-color:none;
+        box-shadow:none;
+        outline: 0;
+        border-radius: 0px;
+   }
+  
+  
+    .technology-header h1{
+        font-size: 50px;
+        font-weight: bolder;
+
+    }
+    .tech-icons{
+        border: 1px solid #fdc9bb ;
+        border-radius: 10px;
+       
+    }
+}
+.appio-question{
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    .left-content{
+        h1{
+            font-size: 3rem;
+            margin-right: 4rem;
+            font-weight: 800;
+            line-height: 1.6;
+        }
+    }
+    .right-content{
+
+        .items{
+            a{
+                width: 800px;
+                outline: 0;
+                border-radius: 0px;
+               
+               padding-left: 0px;
+            }
+            .card{
+                border: none;
+                outline: 0;
+            }
+        }
+    }
+}
+
+.footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+
+    .footer-header{ margin-top: 100px;
+      padding-top: 30px;
+     background-color: rgb(250 232 230 );
+     
+     }
+ .footer-header{
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}

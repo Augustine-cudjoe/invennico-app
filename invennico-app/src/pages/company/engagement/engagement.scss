@@ -1,0 +1,250 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+    
+   }
+   :root{
+    --orange-bg:color: rgb(239,68,52)
+   }
+nav{
+   .navbar{
+    background-color: #fff;
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a{
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a:hover{
+    padding-bottom: 0px;
+    border-bottom: 1px solid red;
+   }
+    .updown:hover{
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .hire{
+      
+        margin-top: px;
+    }
+    a.project{
+        background: rgb(239,68,52);
+         background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+        border-radius: 8px;
+    
+    }
+    a.project:hover{
+    background-color: black;
+    background: black;
+    color:#fff;
+    }
+    
+}
+.engage-hero{
+   background-color: rgba(22, 9 ,8 ,1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    .hero-hold{
+        h1{
+            margin-top: 2em;
+        }
+    }
+    .hero-img{
+        margin-top: 5em;
+        .img{
+            padding-top: 3em;
+        }
+    }
+}
+.hybrid{
+    .hybrid-holder{
+        padding-top: 10rem;
+    
+        .right-hybrid{
+            .button{
+            background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+            }
+            .button:hover{
+                background: black;
+                color: #fff;
+                }
+        }
+    
+    }
+
+    
+    .left-midlle-hybrid {
+        .button2{
+            background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+            }
+        .button2:hover{
+                background: black;
+                color: #fff;
+                }
+    }
+
+    .hybrid-button-content{
+        .button-right-hybrid{
+        .button1{
+            background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+            }
+        .button1:hover{
+                background: black;
+                color: #fff;
+                }
+    }
+   }
+}
+.business{
+ padding-top: 10rem;
+ padding-bottom: 10rem;
+    .engage-business{
+        background-image:url("https://invennico-site.vercel.app/assets/ctabackground-61742ac7.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 70px;
+        margin-bottom: 300px;
+        width: 1100px;
+        padding-left: 5rem;
+        margin-left: 5rem;
+        color: #fff;
+         position: relative;
+        z-index: 1;
+       
+        .button{
+         border: 1px solid #fff;
+         height: 40px;
+        }
+       .button:hover{
+         border: 1px solid #fff;
+         background-color: black;
+         
+         position: absolute;
+         z-index: 2;
+         line-height: 20px;
+         margin-top: 10px;
+        }
+     }
+}
+
+
+.technology{
+    background-color:linear-gradient(180deg, #faf8f9 0% ,#fae8e6 100%);
+    
+    
+    .business-holder {
+        h1{
+            font-size: 100px;
+          color: #0C86EB;
+        }
+        h5{
+            font-size: 100px;
+            color: #0C86EB; 
+        }
+        
+        p{
+            font-size: 20px;
+        }
+    }
+
+     
+
+    button.business{
+       
+            background: rgb(239,68,52);
+             background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            border-radius: 8px;
+         }
+
+      button.business:hover{
+         background-color: black;
+         background: black;
+         color:#fff;
+             }
+   .project-holder h2{
+    font-size: 50px;
+    font-weight: 800;
+     
+   }
+   .teach-content{
+    margin-bottom: 100px;
+   }
+   .service-span{
+    background-color: #fae8e6;
+    color: black;
+    border: #fae8e6;
+   }
+   .service-span:hover{
+    background: rgb(239,68,52);
+    background-color: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+    color: white;
+   }
+   .option:hover{
+    border-color:none;
+    box-shadow:none;
+    outline: 0;
+    background-color: white;
+   }
+   select{
+    background-color: white;
+   }
+    .option:focus,
+   select:focus,
+   .form-control:focus{
+         border-color:none;
+        box-shadow:none;
+        outline: 0;
+        border-radius: 0px;
+   }
+  
+  
+    .technology-header h1{
+        font-size: 50px;
+        font-weight: bolder;
+
+    }
+    .tech-icons{
+        border: 1px solid #fdc9bb ;
+        border-radius: 10px;
+       
+    }
+}
+.footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+
+    .footer-header{ margin-top: 100px;
+      padding-top: 30px;
+     background-color: rgb(250 232 230 );
+     
+     }
+ .footer-header{
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}

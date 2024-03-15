@@ -1,0 +1,150 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+    
+   }
+   :root{
+    --orange-bg:color: rgb(239,68,52)
+   }
+nav{
+   .navbar{
+    background-color: #fff;
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a{
+    padding: 10px;
+   }
+   ul.navbar-nav li.nav-item a:hover{
+    padding-bottom: 0px;
+    border-bottom: 1px solid red;
+   }
+    .updown:hover{
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .hire{
+      
+        margin-top: px;
+    }
+    a.project{
+        background: rgb(239,68,52);
+         background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+        border-radius: 8px;
+    
+    }
+    a.project:hover{
+    background-color: black;
+    background: black;
+    color:#fff;
+    }
+    
+}
+
+.career-holder{
+    background-image: url("https://invennico-site.vercel.app/assets/mesh-gradient-fd5f46b3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 400px;
+   padding-top: 100px;
+   margin-top: 100px;
+   .form-control{
+    width: 600px;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+
+
+   }
+   .form-control:focus{
+    border: none;
+    outline: 0;
+    box-shadow: none;
+
+   }
+   .button{
+    width: 200px;
+    background-color:  rgb(239,68,52);
+    background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+    
+   }
+}
+.developer{
+    margin-top: 120px;
+    .filter{
+        margin-left: 50px;
+        padding-left: 62px;
+        
+    }
+    .details-container{
+
+        .develop-content{
+            width: 30vw;
+            border: 1px solid #fff;
+            background-color: gainsboro;
+        }
+        .content-card{
+            border: none;
+        }
+    }
+
+    .detais-container-card{
+    
+        .card{
+            width: 60vw;
+            
+            outline-color: none;
+            .card-body ul li{
+                list-style-type:disc;
+            }
+            .bi-geo-alt{
+                color:#e5e7eb;
+            }
+            .degree{
+                
+                background-color: rgba(254, 226, 226,1 );
+                border: none;
+            }
+        }
+    }
+}
+.footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+    padding-top: 50px;
+
+    .footer-header{ 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px; 
+      padding-top: 30px;
+     background-color: rgb(250 232 230 );
+     
+     }
+ .footer-header{
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}

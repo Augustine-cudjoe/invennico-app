@@ -1,0 +1,25 @@
+.slide-holder{
+    position: relative;
+    .button:first-child img{
+        position: absolute;
+        left: 0;
+        margin-left: 1rem;
+    }
+    .button:nth-last-child(1) img{
+        position: absolute;
+        right: 0;
+        margin-left: 1rem;
+    }
+    .button:nth-child(2) img{
+        position: absolute;
+        left: 0;
+        margin-top: 8rem;
+        margin-left: 3rem;
+    }
+    .button:nth-child(3) img{
+        position: absolute;
+        right: 0;
+        margin-right: 3rem;
+        margin-top: 8rem;
+    }
+}

@@ -1,0 +1,421 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+    
+   }
+   
+   nav{
+     
+    .navbar-nav{
+     width: 100% ;
+     .dropdown{
+         position:static !important ;
+        
+         .dropdown-menu{
+            border: none;
+             margin-top: 0px !important;
+             width: 100% !important;
+             padding-left: 3rem;
+            
+ 
+            
+ 
+         }
+         .dropdown-menu li:first-child a{
+             font-weight: bold;
+         }
+        
+         
+       
+     }
+    
+    
+ 
+    }
+    .dropdown:hover .dropdown-menu{
+     background-image: url("https://invennico-site.vercel.app/assets/background-ac3428c1.png");
+     background-size: cover;
+     display: block;
+     
+  
+ }
+  
+ ul.navbar-nav li.nav-item a{
+     padding: 10px;
+ 
+    }
+    ul.navbar-nav li.nav-item a:hover{
+     padding-bottom: 0px;
+     border-bottom: 1px solid red;
+    }
+    .company{
+     border: none;
+     width: 100vw;
+     padding-left: 0px;
+     margin-left: 0px;
+     text-decoration: none;
+    }
+     
+ 
+     .hire{
+       
+         margin-top: px;
+     }
+     a.project{
+         background: rgb(239,68,52);
+          background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+         border-radius: 8px;
+     
+     }
+     a.project:hover{
+     background-color: black;
+     background: black;
+     color:#fff;
+     }
+     
+ }
+ 
+
+.android-hero{
+
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    .left-holder{
+        h1{
+            font-size: 5rem;
+            font-weight: bolder;
+        }
+    
+        .years{
+            color: rgb(239,68,52) ;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+        .button{
+            background: rgb(239,68,52);
+            background-color: linear-gradient(180deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+            
+        }
+        .button:hover{
+            background: black;
+           color: #fff;
+            
+        }
+    }
+    
+    .right-holder{
+        .img{
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
+.android-developer{
+      margin-bottom: 10rem;
+    .left-content{
+         p{
+            margin-right: 0px;
+            padding-right: 0px;
+         }
+        .button{
+            background: rgb(239,68,52);
+            background-color: linear-gradient(180deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+            color: #fff;
+        }
+        .button:hover{
+            background: black;
+           color: #fff;
+            
+        }
+        ul{
+          li{
+            padding-left: 0px;
+            margin-left: 0px;
+          }  
+        }
+        .bi-check2{
+            color:rgb(239,68,52);
+        }
+    }
+}
+.android-hire{
+  background-color: #FAFAFA;
+  margin-bottom: 3rem;
+    .android-hire-header{
+        padding-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    .android-hire-salary{
+        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+
+        .card{
+            width: 340px;
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            h4{
+                color: rgb(59 130 246 / .5);
+                font-weight: 800;
+            }
+            .bi-check2{
+                color:rgb(239,68,52);
+            }
+        }
+        .badge{
+            border: 1px solid rgba(59 ,130 ,246,0.5 );
+        }
+        .card2{
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            h4{
+                color: #15D48F;
+            }
+            .badge{
+                border: 1px solid  #15D48F;
+                color: black;
+            }
+            .bi-check2{
+                color:rgb(239,68,52);
+            }
+        }
+        .card3{
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            h4{
+                color: #FF6900;
+            }
+            .badge{
+                border: 1px solid  #FF6900;
+                color: black;
+            }
+            .bi-check2{
+                color:rgb(239,68,52);
+            }
+        }
+    }
+}
+.android-proficiency{
+
+    .proficiency-holder{
+
+        .proficiency-content{
+           .badge{
+            background-color: #E7EAEE;
+            font-size: 13px;
+           }
+        }
+    }
+    
+}
+
+.android-development{
+    background-color: #FAFAFA;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+.development-header{
+
+    .img{
+        width: 570px;
+         height: 500px;
+    }
+}
+}
+.android-process{
+    --tw-bg-opacity:1;
+    background-color: rgb(245, 245, 247, var(--tw-bg-opacity));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .right-holder{
+        
+     ol{
+        list-style-type: none;
+        &.circle-items li{
+        position: relative;
+        border-left: 2px dashed black;
+        
+            &::before{
+                content: counter(list-item);
+                
+                display: inline-block;
+                width: 2rem;
+                height: 2rem;
+                line-height: 1.5;
+                text-align: center;
+                border: 2px solid red;
+                border-radius: 50px;
+                margin: 0.5rem;
+                
+                background-color:rgb(239,68,52);
+                color: #fff;
+                
+            }
+
+            .card{
+                border: none;
+                --tw-bg-opacity:1;
+                background-color: rgb(245, 245, 247, var(--tw-bg-opacity));
+                padding-left: 50px;
+                margin-top: 0px;
+                padding-top: 0px;
+                .card-header{
+                    border: none;
+                }
+                
+            }
+            
+        }
+     }
+   }
+}
+.clients{
+    .client-holder{
+        --tw-bg-opacity:1;
+        background-color: rgb(250, 250 ,250, var(--tw-bg-opacity));
+        .slider-container{
+            margin-bottom: 5rem;
+            .card{
+                height: 100%;
+            }
+        }
+    }
+  
+    
+}
+.android-business{
+
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+       .engage-business{
+           background-image:url("https://invennico-site.vercel.app/assets/ctabackground-61742ac7.svg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           padding-top: 70px;
+           margin-bottom: 300px;
+           width: 1100px;
+           padding-left: 5rem;
+           margin-left: 5rem;
+           color: #fff;
+            position: relative;
+           z-index: 1;
+          
+           .button{
+            border: 1px solid #fff;
+            height: 40px;
+           }
+          .button:hover{
+            border: 1px solid #fff;
+            background-color: black;
+            
+            position: absolute;
+            z-index: 2;
+            line-height: 20px;
+            margin-top: 10px;
+           }
+        }
+}
+
+.android-project{
+    .project-holder{
+        .business-holder h5{
+            color: #0BB8E0 ;
+            font-weight: 500;
+        }
+        .business-holder h1{
+            font-size: 100px;
+            color: #0BB8E0 ;
+            font-weight: 800;
+        }
+        .business-holder p{
+            font-size: 20px;
+            
+        }
+    
+        button.business{
+           
+                background: rgb(239,68,52);
+                 background: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+                border-radius: 8px;
+             }
+    
+          button.business:hover{
+             background-color: black;
+             background: black;
+             color:#fff;
+                 }
+       .project-holder h2{
+        font-size: 50px;
+        font-weight: 800;
+         
+       }
+       .teach-content{
+        margin-bottom: 100px;
+       }
+       .service-span{
+        background-color: #fae8e6;
+        color: black;
+        border: #fae8e6;
+       }
+       .service-span:hover{
+        background: rgb(239,68,52);
+        background-color: linear-gradient(89deg, rgba(239,68,52,1) 0.06%, rgba(255,105,0,1) 99.82%);
+        color: white;
+       }
+       .option:hover{
+        border-color:none;
+        box-shadow:none;
+        outline: 0;
+        background-color: white;
+       }
+       select{
+        background-color: white;
+       }
+        .option:focus,
+       select:focus,
+       .form-control:focus{
+             border-color:none;
+            box-shadow:none;
+            outline: 0;
+            border-radius: 0px;
+       }
+      
+    }
+}
+.footer-section{
+    background-color: #FFF7F6;
+    width: 100vw;
+
+
+ .footer-header{
+    margin-top: 100px;
+    padding-top: 30px;
+    background-color: rgb(250 232 230 );
+    width: 1000px;
+   
+    ul{
+        padding-left: 0px;
+        margin-left: 0px;
+        
+    }
+   }
+   .footer-content{
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+   }
+   div.social-media li{
+    list-style-type: none;
+   }
+}
